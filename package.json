@@ -11,6 +11,7 @@
   "dependencies": {
     "@apidevtools/json-schema-ref-parser": "^11.7.2",
     "@json-schema-tools/dereferencer": "^1.6.3",
+    "@json-schema-tools/traverse": "^1.10.4",
     "@vueuse/core": "^11.3.0",
     "vite-plugin-vuetify": "^2.0.4",
     "vue": "^3.5.12",

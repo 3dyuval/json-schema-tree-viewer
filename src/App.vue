@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import JsonSchemaTreeViewer from "./components/JsonSchemaTreeViewer.vue"
+import address from "./assets/address.json"
+// import metadata from '../../gc/gc-rules/src/mock/metadata.json';
 </script>
 
 <template>
-  <json-schema-tree-viewer/>
+  <json-schema-tree-viewer :schema="address" />
 </template>
 
 <style scoped>
